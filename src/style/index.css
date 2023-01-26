@@ -1,0 +1,39 @@
+/* FONTS
+font-family: 'IBM Plex Mono',monospace;
+
+font-family: 'Poppins',sans-serif;
+
+font-family: 'Space Grotesk',sans-serif;
+
+font-family: 'Yeseva One',cursive; 
+*/
+
+@font-face {
+  font-family: neima;
+  src: url("../fonts/neima/NEIMA.woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #141414;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1c1c1cbf;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #7033f5;
+}

@@ -1,0 +1,55 @@
+.project-card-wrapper {
+  max-width: 900px;
+  height: auto;
+  /* background-color: aquamarine; */
+}
+
+.project-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+
+.left {
+  height: auto;
+  background-image: url("../image/Project-Typography-bg.svg");
+  background-repeat: no-repeat;
+}
+
+/* .card-bg {
+  position: absolute;
+} */
+
+.card-img {
+  z-index: 99;
+  max-width: 400px;
+  height: auto;
+  padding: 30px;
+}
+.right {
+  height: 100%;
+  color: white;
+  padding: 50px 0px;
+  font-family: "Poppins", sans-serif;
+  /* background-color: aliceblue; */
+}
+
+.right h3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0px 0px 10px 0px;
+}
+
+.right p {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .project-card {
+    flex-direction: column;
+  }
+  .right {
+    padding: 50px 2em;
+  }
+}

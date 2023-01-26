@@ -1,0 +1,27 @@
+.certificate-card {
+  max-width: 230px;
+  min-width: 180px;
+  max-height: 260px;
+  min-height: 150px;
+  display: flex;
+  font-family: "Space Grotesk", sans-serif;
+  border-radius: 5px;
+  background-image: url("../image/Project-Typography-bg.svg");
+  background-size: cover;
+  overflow: auto;
+}
+
+.cert-card h2 {
+  font-size: 16px;
+}
+
+.cert-card p {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.cert-card {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+}
